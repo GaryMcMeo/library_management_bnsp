@@ -33,7 +33,7 @@
         @endif
 
         <div class="bg-white p-6 rounded shadow-md">
-            <h2 class="text-2xl font-bold mb-6">Add New Book</h2>
+            <h2 class="text-2xl font-bold mb-6">Add Book</h2>
             <form action="{{ route('book.store') }}" method="POST">
                 @csrf
                 <div class="mb-4">
